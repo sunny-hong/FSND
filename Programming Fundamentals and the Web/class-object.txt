@@ -1,0 +1,8 @@
+Class is like a blueprint of a building. 
+Same blueprint can make more buildings. 
+
+Examples of a class: Turtle() from turtle. Client() from twilio.
+
+Examples of an object:
+  brad = turtle.Turtle()
+  client = Client(account_sid, auth_token)
