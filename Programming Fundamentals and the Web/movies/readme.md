@@ -40,7 +40,28 @@ This movie trailer website has movies with the poster images, and once you click
   * Tomato logos on the tab title, or a *favicon*, and the website header top.
   * Line 17 contains `<link rel="icon" href="http://www.pngmart.com/files/1/Tomato-Clip-Art-PNG.png">` to allow *favicon* have tomato.
 
+### Finished Product
+Image:
 ![Alt text](./pictureerase.jpeg?raw=true "Optional Title")
+
+### Issue with Chrome 
+
+Don't have Chrome browser downloaded? Please open up `fresh_tomatoes.py` file and edit line 169 and 170.
+Here is a snippet of my code for your reference.
+
+![Alt text](./photoerase2.jpeg? "Optional Title")
+
+If **Firefox** is more lit, then delete `    chrome_path = 'open -a /Applications/Google\ Chrome.app %s'
+`  and 
+replace 
+`    webbrowser.get(chrome_path).open('file://' + url, new=2) `
+with 
+`    webbrowser.get('firefox').open('file://' + url, new=2) `
+
+If **Internet Explorer**, then 
+`
+ie = webbrowser.iexplore
+webbrowser.get(ie).open('file://' + url, new=2)`
 
 ### Copyright and Licensing Information
 
