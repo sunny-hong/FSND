@@ -1,11 +1,11 @@
 import media
 import fresh_tomatoes
 
-# 6 Instances movie_name
-# 4 Instance Variables: media.Movie("title", "desc", "poster", "trailer")
 
+# 6 movie_name instances
+# 4 Instance Variables: media.Movie("title", "desc", "poster", "trailer")
 toy_story = media.Movie("Toy Story 3",
-                        "A story of a boy and his toys that come to life", # initializes or creates space in memory for new instance
+                        "A story of a boy and his toys that come to life",
                         "http://www.impawards.com/2010/posters/toy_story_three_ver10.jpg",  # NOQA
                         "https://youtu.be/JcpWXaA2qeg?t=7s")
 
@@ -19,7 +19,8 @@ up = media.Movie("Up", "A man fulfills his dream to fly",
                 "https://youtu.be/qas5lWp7_R0?t=7s")
 
 bad_moms = media.Movie("Bad Moms",
-                        "Three mothers ditch their conventional responsibilities",
+                        "Three mothers ditch their conventional"
+                        " responsibilities",
                         "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIwNzE5MTgwNl5BMl5BanBnXkFtZTgwNjM4OTA0OTE@._V1_UY1200_CR90,0,630,1200_AL_.jpg",  # NOQA
                         "https://www.youtube.com/watch?v=IHBLbGvwO6I")
 
