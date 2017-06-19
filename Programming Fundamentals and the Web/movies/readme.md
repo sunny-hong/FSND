@@ -31,12 +31,14 @@ This movie trailer website has movies with the poster images, and once you click
 * If above three did not work, refer to this website for [Running Python Program](https://en.wikibooks.org/wiki/Python_Programming/Creating_Python_Programs)
   
 ### How the program works
-* [`entertainment_center.py`](./movies/entertainment_center.py) is the code that needs to be run on Python. This script contains movie information and runs `fresh_tomatoes` function. 
+* [`entertainment_center.py`](./movies/entertainment_center.py) is the code that needs to be run on Python. 
+  * This script contains movie information and imports `fresh_tomatoes.py` to use `open_movies_page(input)` function.
 * [`media.py`](./movies/media.py) is a file that has Movie() class. Movie() class takes in 4 inputs: movie title, movie storyline, poster image url, trailer Youtube url. 
 * [`fresh_tomatoes.py`](./movies/fresh_tomatoes.py) file was given by Udacity team, which can do two things, create movie tiles content and open movies page. 
   * Personal touch via HTML:
   * Mouse cursor highlights pink color
   * Tomato logos on the tab title, or a *favicon*, and the website header top.
+  * Line 17 contains `<link rel="icon" href="http://www.pngmart.com/files/1/Tomato-Clip-Art-PNG.png">` to allow *favicon* have tomato.
 
 ![Alt text](./pictureerase.jpeg?raw=true "Optional Title")
 
