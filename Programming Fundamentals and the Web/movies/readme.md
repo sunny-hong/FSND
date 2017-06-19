@@ -36,8 +36,9 @@ This movie trailer website has movies with the poster images, and once you click
 * [`fresh_tomatoes.py`](./movies/fresh_tomatoes.py) file was given by Udacity team, which can do two things, create movie tiles content and open movies page. 
   * Personal touch via HTML:
   * Mouse cursor highlights pink color
-  * Tomato logos on the tab title, or a * favicon*, and the website header top.
+  * Tomato logos on the tab title, or a *favicon*, and the website header top.
 
+![Alt text](./pictureerase.jpeg?raw=true "Optional Title")
 
 ### Copyright and Licensing Information
 
