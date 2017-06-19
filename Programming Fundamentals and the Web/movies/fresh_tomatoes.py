@@ -14,6 +14,7 @@ main_page_head = '''
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <link rel="icon" href="http://www.pngmart.com/files/1/Tomato-Clip-Art-PNG.png">
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
@@ -40,7 +41,7 @@ main_page_head = '''
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #EEE;
+            background-color: #FEE;
             cursor: pointer;
         }
         .scale-media {
@@ -78,7 +79,7 @@ main_page_head = '''
         // Animate in the movies when the page loads
         $(document).ready(function () {
           $('.movie-tile').hide().first().show("fast", function showNext() {
-            $(this).next("div").show("fast", showNext);
+            $(this).next("div").show("slow", showNext);
           });
         });
     </script>
@@ -108,6 +109,7 @@ main_page_content = '''
         <div class="container">
           <div class="navbar-header">
             <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <img src="http://www.pngmart.com/files/1/Tomato-Clip-Art-PNG.png" width="50" height="50" alt="">
           </div>
         </div>
       </div>
@@ -153,7 +155,7 @@ def create_movie_tiles_content(movies):
 def open_movies_page(movies):
     # Create or overwrite the output file
     output_file = open('fresh_tomatoes.html', 'w')
-    print("Output done")
+
     # Replace the movie tiles placeholder generated content
     rendered_content = main_page_content.format(
         movie_tiles=create_movie_tiles_content(movies))

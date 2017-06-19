@@ -1,7 +1,8 @@
 import media
 import fresh_tomatoes
 
-# 6 Instances: movie_name = media.Movie("title", "desc", "poster", "trailer")
+# 6 Instances movie_name
+# 4 Instance Variables: media.Movie("title", "desc", "poster", "trailer")
 
 toy_story = media.Movie("Toy Story 3",
                         "A story of a boy and his toys that come to life", # initializes or creates space in memory for new instance
@@ -32,11 +33,8 @@ darkknight = media.Movie("Dark Knight",
                         " psychological and physical tests.",
                         "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg",  # NOQA
                         "https://www.youtube.com/watch?v=wzMW991EHGg")
-#toystory and avatar are instances.
-#Title within toystory, storyline in toystory are instance variables.
 
+# Array of movie instances
 movies = [toy_story, the_internship, up, bad_moms, midnight, darkknight]
+# Calls fresh_tomatoes.py file's "open_movies_page" function.
 fresh_tomatoes.open_movies_page(movies)
-# print(media.Movie.__module__)
-# print(media.Movie.__name__)
-# print(media.Movie.__dict__)
