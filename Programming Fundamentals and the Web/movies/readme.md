@@ -60,8 +60,9 @@ with
 
 If **Internet Explorer**, then 
 `
-ie = webbrowser.iexplore
-webbrowser.get(ie).open('file://' + url, new=2)`
+ie = webbrowser.iexplore`
+
+`webbrowser.get(ie).open('file://' + url, new=2)`
 
 ### Copyright and Licensing Information
 
