@@ -1,4 +1,107 @@
+/*
+Headers
+h1: name
+h2: section titles
+h3: featured titles
+h4: desc
+*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
-  width:100px;
+  font-size: 48px;
   max-width:100%;
+  line-height: inherit;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight:200;
+}
+h2 {
+  font-size: 36px;
+  color: #7d97ad;
+  text-transform: capitalize;
+  line-height: 1.5;
+  /*grey*/
+}
+h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+/*
+classes and id's.
+*/
+hr {
+     color: #7d97ad;
+     background: #7d97ad;
+     height: 2px;
+     /*padding: 10px;*/
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+  padding: 10px;
+}
+
+.topbar {
+
+  text-transform: uppercase;
+  color:#2d3c49;
+}
+
+.upper {
+  /*Photo by Brooke Lark on Unsplash*/
+
+  height: 400px;
+  background-image: url("../img/yellow.jpg") ;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  /*height: 400px;
+  width: 960px;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.featured {
+  text-align: left;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.works {
+  /*margin-top: 10px;*/
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+
+}
+.works img {
+  background-position: center;
+  background-size: cover;
+  width: 280px;
+  height: 200px;
+}
+
+.works text {
+  font-size: 24px;
+
+  text-transform: uppercase;
+
+}
+.description {
+  font-size: 12px;
 }
