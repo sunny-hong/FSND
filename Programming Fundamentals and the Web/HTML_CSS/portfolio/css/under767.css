@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 35px;
   max-width:100%;
   line-height: inherit;
   margin-bottom: 10px;
@@ -32,7 +32,7 @@ h3 {
 }
 h4 {
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 14px;
   line-height: normal;
   margin-bottom: 10px;
 }
@@ -49,12 +49,14 @@ hr {
 classes and id's.
 */
 .container {
-  max-width: 960px;
+  max-width: 767px;
   margin-left: auto;
   margin-right: auto;
   text-align: right;
   padding: 10px;
+  align-items: center;
 }
+
 
 .topbar {
   text-transform: uppercase;
@@ -63,39 +65,41 @@ classes and id's.
 
 .upper {
   /*Photo by Brooke Lark on Unsplash*/
-  height: 400px;
+  height: 200px;
   background-image: url("../img/yellow.jpg") ;
   position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 70px;
+  min-width: 320px;
 
 }
 
 .topbar img {
   position: 10px 10px;
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
 }
+
 .featured {
-  text-align: left;
+  text-align: center;
   font-weight: 400;
   margin-bottom: 10px;
 }
 
 .works {
-  flex-wrap: wrap;
-  justify-content: flex-end;
+  min-width: 320px;
+  /*flex-wrap: center;*/
+  align-items: center;
   display: inline-block;
-  width: 300px;
-  height: 300px;
+  height: 340px;
   text-align: center;
 }
 .works img {
   background-position: center;
   background-size: cover;
-  width: 280px;
   height: 200px;
 }
 
@@ -105,5 +109,5 @@ classes and id's.
 }
 
 .description {
-  font-size: 12px;
+  font-size: 18px;
 }

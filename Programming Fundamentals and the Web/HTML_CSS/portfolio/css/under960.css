@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 40px;
   max-width:100%;
   line-height: inherit;
   margin-bottom: 10px;
@@ -38,7 +38,6 @@ h4 {
 }
 
 hr {
-     /*color: #7d97ad;*/
      background: #7d97ad;
      height: 2px;
      /*padding: 10px;*/
@@ -54,6 +53,7 @@ classes and id's.
   margin-right: auto;
   text-align: right;
   padding: 10px;
+  align-items: center;
 }
 
 .topbar {
@@ -69,8 +69,6 @@ classes and id's.
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-
 }
 
 .topbar img {
@@ -86,11 +84,11 @@ classes and id's.
 
 .works {
   flex-wrap: wrap;
-  justify-content: flex-end;
-  display: inline-block;
   width: 300px;
   height: 300px;
   text-align: center;
+  margin-left: 10px;
+  align-items: center;
 }
 .works img {
   background-position: center;
