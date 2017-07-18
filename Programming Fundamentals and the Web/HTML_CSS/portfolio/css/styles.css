@@ -11,39 +11,40 @@ body {
 
 h1 {
   font-size: 48px;
-  max-width:100%;
+  max-width: 100%;
   line-height: inherit;
   margin-bottom: 10px;
   margin-top: 10px;
-  font-weight:200;
+  font-weight: 200;
+  text-align: right;
 }
 h2 {
   font-size: 36px;
   color: #7d97ad;
   text-transform: capitalize;
   line-height: 1;
-  margin-bottom:10px;
+  margin-bottom: 10px;
   margin-left: 20px;
-  /*grey*/
+  text-align: left;
 }
 h3 {
   font-size: 24px;
   text-transform: uppercase;
+  text-align: right;
 }
 h4 {
   margin-top: 10px;
   font-size: 18px;
   line-height: normal;
   margin-bottom: 10px;
+  text-align: right;
 }
 
 hr {
-     /*color: #7d97ad;*/
-     background: #7d97ad;
-     height: 2px;
-     /*padding: 10px;*/
-     margin-top: 20px;
-     margin-bottom: 20px;
+   background: #7d97ad;
+   height: 2px;
+   margin-top: 20px;
+   margin-bottom: 20px;
 }
 /*
 classes and id's.
@@ -52,7 +53,6 @@ classes and id's.
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
-  text-align: right;
   padding: 10px;
 }
 
@@ -74,19 +74,18 @@ classes and id's.
 }
 
 .topbar img {
-  position: 10px 10px;
   width: 80px;
   height: 80px;
+  float: left;
 }
 .featured {
   text-align: left;
   font-weight: 400;
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .works {
-  flex-wrap: wrap;
-  justify-content: flex-end;
   display: inline-block;
   width: 300px;
   height: 300px;
@@ -97,6 +96,7 @@ classes and id's.
   background-size: cover;
   width: 280px;
   height: 200px;
+  border: 0;
 }
 
 .works text {
